@@ -1,0 +1,126 @@
+
+.delay1{
+	-webkit-animation-delay: 0.5s; /* Safari and Chrome */
+	animation-delay: 0.5s;
+}
+.delay2{
+	-webkit-animation-delay: 1.0s; /* Safari and Chrome */
+	animation-delay: 1.0s;
+}
+.delay3{
+	-webkit-animation-delay: 1.5s; /* Safari and Chrome */
+	animation-delay: 1.5s;
+}
+.delay4{
+	-webkit-animation-delay: 2.0s; /* Safari and Chrome */
+	animation-delay: 2.0s;
+}
+.delay5{
+	-webkit-animation-delay: 2.5s; /* Safari and Chrome */
+	animation-delay: 2.5s;
+}
+
+/* MEDIA FOR RESPONSIVE */
+
+@media screen and (min-width: 1200px) and (max-width: 2500px){
+	.container{width:1170px;}
+
+}
+
+@media screen and (min-width: 992px) and (max-width:1199px){
+	.container{width:970px;}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	/*logotype */
+	.logotype img{
+border-top:29px !important;
+padding-top:29px !important;
+		margin-top:29px !important;}
+
+	/* section 1 responsive */
+	.s1-col-text-left{text-align:center !important;}
+	.s1-col-text-right{text-align:center !important;}
+	.s1-title-top{text-align:center !important;}
+	.s1-text-box p{text-align:center !important;padding:0px 15px 0px 15px !important;}
+	.s1-col-text-right{padding:30px 15px 30px 15px !important;}
+	.s1-col-buttons .btn-53bc96{margin-top:20px !important;}
+
+	/* section 5 responsive */
+	.s5-image{margin-top:-65px !important;}
+	.s5-right{padding:80px 0px 80px 0px !important;}
+	.input-group-lg{padding:0px 30px 0px 30px !important;}
+
+
+	/* section 7 responsive */
+	.s7-col-item {padding:0px 15px 80px 15px !important;}
+	.s7-col-item.last-item{padding:0px 15px 0px 15px !important;}
+	.s7-col-description-title{text-align:center !important;}
+	.s7-col-description-bottom{text-align:center !important;}
+	.s7-col-blog-content{text-align:center !important;}
+
+	/* section contact */
+	.s8-col-md-left{padding:0px 0px 0px 0px !important;}
+	.s8-col-md-right{padding:0px 0px 0px 0px !important;}
+	.s8-col-contact{padding:60px 15px 0px 15px !important;}
+
+	/* modal 1 */
+	.col-modal-content{padding:85px 0px 45px 0px !important;} /*  border:1px solid red; */
+	.modal-col-buttons{text-align:center !important;}
+	.modal-col-buttons .btn{margin:5px 0px 5px 15px !important}
+	.title-col-modal-app{text-align:center !important;padding:25px 0px 25px 0px !important;}
+	.col-modal-tag-container{text-align:center !important;}
+	.col-divider-line{margin:15px auto 18px auto !important;}
+	.col-divider-container-photos{text-align:center !important;}
+	.col-divider-line{margin:15px auto 18px auto;}
+	.modal-bottom-images{text-align:center !important;}
+	.modal-col-buttons-divider-container{padding:0px 0px 0px 0px !important;}
+	.modal-blog-created{text-align:center !important;}
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px){
+	/*logotype */
+	.logotype img{margin:4px !important;}
+
+	/* section 1 responsive */
+	.s1-col-text-left{text-align:center !important;}
+	.s1-col-text-right{text-align:center !important;}
+	.s1-title-top{text-align:center !important;}
+	.s1-text-box p{text-align:center !important;padding:0px 15px 0px 15px !important;}
+	.s1-col-text-right{padding:30px 15px 30px 15px !important;}
+	.s1-col-buttons .btn-53bc96{margin-top:20px !important;}
+
+	/* section 5 responsive */
+	.s5-image{margin-top:-65px !important;}
+	.s5-right{padding:80px 0px 80px 0px !important;}
+	.input-group-lg{padding:0px 30px 0px 30px !important;}
+
+
+	/* section 7 responsive */
+	.s7-col-item {padding:0px 15px 80px 15px !important;}
+	.s7-col-item.last-item{padding:0px 15px 0px 15px !important;}
+	.s7-col-description-title{text-align:center !important;}
+	.s7-col-description-bottom{text-align:center !important;}
+	.s7-col-blog-content{text-align:center !important;}
+
+	/* section contact */
+	.s8-col-md-left{padding:0px 0px 0px 0px !important;}
+	.s8-col-md-right{padding:0px 0px 0px 0px !important;}
+	.s8-col-contact{padding:60px 15px 0px 15px !important;}
+
+
+	/* modal 1 */
+	.col-modal-content{padding:85px 0px 45px 0px !important;} /*  border:1px solid red; */
+	.modal-col-buttons{text-align:center !important;}
+	.modal-col-buttons .btn{margin:5px 0px 5px 15px !important}
+	.title-col-modal-app{text-align:center !important;padding:25px 0px 25px 0px !important;}
+	.col-modal-tag-container{text-align:center !important;}
+	.col-divider-line{margin:15px auto 18px auto !important;}
+	.col-divider-container-photos{text-align:center !important;}
+	.col-divider-line{margin:15px auto 18px auto;}
+	.modal-bottom-images{text-align:center !important;}
+	.modal-col-buttons-divider-container{padding:0px 0px 0px 0px !important;}
+	.modal-blog-created{text-align:center !important;}
+}

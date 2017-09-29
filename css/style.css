@@ -1,0 +1,909 @@
+/* TABLE OF CONTENT
+
+GENERAL SETTINGS -  Main, general rules and resets for bootstrap css
+
+	1.html
+	2.body
+	3.clear bootstrap behavior for A tag
+	4.clear border for IE browsers
+	5.some globals used in html files for easier code write
+	6.clear bootstrap buttons behavior
+	7.BOOTSTRAP NAVBAR TOP
+	8.change right menu bootstrap button behavior - visible in small resolutions
+	9.clear bootstrap textfield and inputs behavior
+	10.placeholder color - for those web browsers that use it
+	11.bootstrap buttons used on site
+	12.circle divider for sections (color circles)
+
+	9.clear bootstrap textfield and inputs behavior
+	10.bootstrap tooltip plugin
+	11.loader for whole page - behavior in loading.css file
+	13.LOADER FOR WHOLE PAGE #########
+
+
+PAGE CONTENT - Whole rules that describe main page
+
+	SECTION 1 - MAIN PAGE
+
+		1.graphics - FIRST CLASS overlayed on main title
+		2.container for section 1 with background setted in main.js backstrech plugin
+		3.top title
+		4.col with icons for about_us section
+		5.containers for titles on left and right column
+		6.p tag for text on left side
+		7.p tag for text on right side
+		8.buttons on bottom of p tag text
+		9.bottom mockups of web browsers
+
+	SECTION 2 NEWS SECTION
+
+		1.divider visible on bottom of first section - 5px dark line for design effect
+		2.container for section 2
+		3.pattern for container for section 2
+		4.SECTION TITLE
+		5.CONTAINER FOR EVERY NEWS
+
+	SECTION 3 ICONS SECTION
+
+		1.top divider 5px darked line on top of section
+		2.bottom divider 5px darked line on bottom of section
+		3.container for section
+		4.container for sections boxes
+		5.container for every one box with background color
+		6.images in boxes
+		7.titles in boxes
+		8.description in boxes
+
+	SECTION 4 OUR THEMES TO BUY
+
+		1.container for section
+		2.5px divider dark line visible on top of section
+		3.pattern container for section
+		4.SECTION TITLE
+		5.carousel for section - main.js carousel - more CSS for carousel in CSS/OWL folder and on product site for owl carousel
+		6.item for carousel
+		7.images in carousel
+		8.item hover
+
+	SECTION 5 VIDEOS SHOW
+
+		1.section container
+		2.pattern for section
+		3.SECTION TITLE
+		4.VIDEO CONTAINER
+
+	SECTION 6 NEWSLETTER
+
+		1.container for section
+		2.left box with color
+		3.right box with color
+		4.centerd in main.js icon for section
+		5.5px divider dark line on top of section
+		6.5px divider dark line on bottom of section
+		7.titles/content in left box
+		8.content in right box - submit field and button
+
+
+	SECTION 7 BLOGS
+
+		1.container for section
+		2.5px divider dark line on top and bottom of section
+		3.pattern for section - here setted image in main.js backstrech plugin
+		4.SECTION TITLE
+		5.container for all 4 blogs boxes
+		6.container for box
+		7.image in box
+		8.title of blog
+		9.descriptions of blog box - date and comments count
+		10.blog content
+		11.read more link
+
+
+	SECTION 8 CONTACT
+
+		1.container for section
+		2.pattern for section
+		3.SECTION TITLE
+		4.container for contact form
+		5.textarea behavior
+		6.inputs behavior
+		7.submit button
+		8.column for inputs - used in media.css for responsive behavior
+
+
+
+BOOTSTRAP MODAL CUSTOMIZE GLOBAL SETTINGS - Rules for bootstrap modal box
+
+	1.modal dialog width and height  - full page
+	2.setted general behavior for modal box - minimal top padding for mobiles fix, word spacing, background, border, and outline reset from bootstrap standard
+	3.background ( overlay for modal box - here setted to opacity:0 ) - You can change opacity if You don't want to have main page on background when modal is opened
+
+
+	I. MODAL ONE FOR OUR THEMES BUY
+
+		1.modal buttons
+		2.modal app container
+		3.MODAL APP TITLE
+		4.modal descriptions
+		5.modal bottom images list
+		6.modal bottom tags
+
+
+	II. MODAL TWO
+*/
+
+
+
+
+/* 1.html */
+html {width:100%;-webkit-font-smoothing: antialiased;height:100%;overflow:hidden;}
+
+/* 2.body */
+body{width:100%;height:100%;font-family:'Open Sans';margin:0 auto;font-weight:300;position:fixed;background:#2e3245;color:#000;}
+
+*{ margin:0; }
+
+
+/* image responsive change behavior for opacity change on hover */
+.img-hover{
+	opacity:1;
+	-webkit-transition: all ease .6s;
+    -moz-transition: all ease .6s;
+    -o-transition: all ease .6s;
+    transition: all ease .6s;
+}
+.img-hover:hover{
+	opacity:0.2 !important;
+}
+
+/* 3.clear bootstrap behavior for A tag */
+a:focus{box-shadow:none !important;outline:0;}
+a:active:hover{box-shadow:none !important;outline:0;}
+a:hover{box-shadow:none !important;outline:0;}
+a:focus{box-shadow:none !important;outline:0;}
+
+/* 4.clear border for IE browsers */
+img{border:0;}
+
+/* 5.some globals used in html files for easier code write*/
+.overflow{overflow:hidden;}
+.text-center{text-align:center;}
+.text-left{text-align:left;}
+.text-right{text-align:right;}
+.nopadding{padding:0 !important;}
+.marginauto{margin:0 auto;}
+.upper{text-transform: uppercase;}
+.marginleftright{margin-left:auto;margin-right:auto;}
+
+
+/* 	6.clear bootstrap buttons behavior */
+.btn:focus{box-shadow:none !important;outline:0;}
+.btn:active:hover{box-shadow:none !important;outline:0;}
+.btn:hover{box-shadow:none !important;outline:0;}
+.btn:focus{box-shadow:none !important;outline:0;}
+
+
+
+/* 7.BOOTSTRAP NAVBAR TOP */
+.navbar {margin-bottom:0px !important;padding:0px 0px 0px 0px;float: none;}
+.navbar-container{position:relative;z-index:1003;text-align:center;padding:0;}
+.navbar-container-color{width:100%;height:100%;position:absolute;background:rgba(0,51,153,0.85);z-index:1;border-bottom:2px;border-style: solid;border-bottom-color: white;
+}
+.navbar-left{padding:10px 20px 10px 10px;position:relative;z-index:10;}
+.navbar-right{padding:10px 20px 10px 0px;position:relative;z-index:10;}
+.navbar-header{position:relative;z-index:2;}
+.navbar-default{background:transparent !important;border-top:0;border-bottom:2px;border-radius:0;border-left:0;border-right:0;font-family:'Oswald';}
+.navbar-default .navbar-nav>li>a{
+	overflow:hidden;background:transparent !important;color:#dee1f0;font-weight:400;padding:10px 15px 8px 15px;font-size:13px;position:relative;z-index:11;letter-spacing:1px;
+	-webkit-transition: all ease .6s;
+    -moz-transition: all ease .6s;
+    -o-transition: all ease .6s;
+    transition: all ease .6s;
+}
+.navbar-default .navbar-nav>li>a.nav-div{padding:11px 0px 8px 0px !important;font-size:6px;}
+.navbar-default .navbar-nav>li>a.nav-circle{font-size:10px;color:#40a0f9;padding:10px 0px 8px 0px;}
+.navbar-default .navbar-nav>li>a:focus{color:#40a0f9;}
+.navbar-default .navbar-nav>li>a:hover{color:#40a0f9;background:transparent;color:#40a0f9;}
+.navbar-default .navbar-nav>.active>a{color:#40a0f9;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus{background:transparent !important;color:#40a0f9;}
+.navbar-default .navbar-nav>.active>a:hover{color:#40a0f9;}
+.navbar-collapse{padding:0;overflow:hidden;}
+.navbar-fixed-top{z-index:9999;}
+
+/* logotype one top left */
+.navbar-brand{padding:0px 0px 0px 35px;}
+.logotype img{margin-top:10px;padding:0px;width:70px;}
+.left-menu{position:absolute;margin:28px 0px 0px 4px;}
+
+/* 8.change right menu bootstrap button behavior - visible in small resolutions */
+.navbar-header .navbar-toggle  {margin-right:25px !important;}
+.navbar-default .navbar-toggle {border-color:#3FC380 !important;}
+.navbar-default .navbar-toggle .icon-bar{background-color:#3FC380 !important;}
+.navbar-default .navbar-toggle:hover{background:transparent !important}
+.navbar-default .navbar-toggle:active:hover{background:transparent !important}
+.navbar-default .navbar-toggle:focus{background:transparent !important}
+
+/* END NAVBAR */
+
+
+
+/* 9.clear bootstrap textfield and inputs behavior */
+input{border:0 !important;background:#eff3f7 !important;font-weight:400;border-radius:0 !important;}
+textarea{border:0 !important;background:#eff3f7 !important;resize:none !important;font-weight:400;border-radius:0 !important;}
+textarea:active:hover{box-shadow:none !important;outline:0;border:0 !important;}
+textarea:hover{box-shadow:none !important;outline:0;border:0 !important;}
+textarea:focus{box-shadow:none !important;outline:0;border:0 !important;}
+
+input:focus{box-shadow:none !important;outline:0;border:0 !important;}
+input:active:hover{box-shadow:none !important;outline:0;border:0 !important;}
+input:hover{box-shadow:none !important;outline:0;border:0 !important;}
+input:focus{box-shadow:none !important;outline:0;border:0 !important;}
+
+
+/* 10. placeholder color - for those web browsers that use it*/
+
+/* placeholder color */
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #ffffff !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #ffffff !important;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #ffffff !important;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #ffffff !important;
+}
+
+/* bootstrap help block */
+.help-block{color:#dee1f0;font-weight:400;font-size:11px;margin-left:4px;}
+
+
+/* 11.bootstrap buttons used on site */
+.btn-ff6353a{margin:0px 30px 0px 30px;background:#003399;border-radius:6px;color:#ffffff;font-family:'Oswald';border:0;font-weight:800;font-size:21px;letter-spacing:0px;word-spacing:4px;padding:5px 20px 5px 20px;}
+.btn-ff6353a i{margin:0px 0px 0px 0px;}
+.btn-ff6353a:focus{box-shadow:none !important;outline:0;background:#fff;color:#ffffff}
+.btn-ff6353a:active:hover{box-shadow:none !important;outline:0;background:#fff;color:#ffffff}
+.btn-ff6353a:hover{box-shadow:none !important;outline:0;background:#fff;color:#ffffff}
+.btn-ff6353a:focus{box-shadow:none !important;outline:0;background:#fff;color:#ffffff}
+.btn-ff6353a a{color:#ffffff;text-decoration:none;}
+
+.btn-fac51f{margin:0px 30px 0px 30px;background:#003399;border-radius:6px;color:#ffffff;font-family:'Oswald';border:0;font-weight:800;font-size:21px;letter-spacing:0px;word-spacing:4px;padding:5px 20px 5px 20px;}
+.btn-fac51f i{margin:0px 0px 0px 0px;}
+.btn-fac51f:focus{box-shadow:none !important;outline:0;background:#fff;color:#ffffff}
+.btn-fac51f:active:hover{box-shadow:none !important;outline:0;background:#fff;color:#ffffff}
+.btn-fac51f:hover{box-shadow:none !important;outline:0;background:#fff;color:#ffffff}
+.btn-fac51f:focus{box-shadow:none !important;outline:0;background:#fff;color:#ffffff}
+.btn-fac51f a{color:#ffffff;text-decoration:none;}
+
+.btn-53bc96{margin:0px 30px 0px 30px;background:#53bc96;border-radius:6px;color:#ffffff;font-family:'Oswald';border:0;font-weight:800;font-size:21px;letter-spacing:0px;word-spacing:4px;padding:5px 20px 5px 20px;}
+.btn-53bc96 i{margin:0px 0px 0px 0px;}
+.btn-53bc96:focus{box-shadow:none !important;outline:0;background:#fff;color:#ffffff}
+.btn-53bc96:active:hover{box-shadow:none !important;outline:0;background:#fff;color:#ffffff}
+.btn-53bc96:hover{box-shadow:none !important;outline:0;background:#fff;color:#ffffff}
+.btn-53bc96:focus{box-shadow:none !important;outline:0;background:#fff;color:#ffffff}
+.btn-53bc96 a{color:#ffffff;text-decoration:none;}
+
+.btn-submit{background:#40a0f9;border-radius:6px;color:#ffffff;font-family:'Oswald';border:0;font-weight:800;font-size:21px;letter-spacing:0px;word-spacing:4px;overflow:hidden;}
+.btn-submit i{margin:0px 0px 0px 0px;}
+.btn-submit:focus{box-shadow:none !important;outline:0;background:#003399;color:#ffffff;border:0 !important}
+.btn-submit:active:hover{box-shadow:none !important;outline:0;background:#003399;color:#ffffff;border:0 !important}
+.btn-submit:hover{box-shadow:none !important;outline:0;background:#003399;color:#ffffff;border:0 !important}
+.btn-submit:focus{box-shadow:none !important;outline:0;background:#003399;color:#ffffff;border:0 !important}
+.btn-submit a{color:#ffffff;text-decoration:none;}
+
+
+/* 12.circle divider for sections (color circles) */
+.divider-top-1{color:#6d7d92;margin:5px 15px 5px 15px;}
+.divider-top-2{color:#6d7d92;margin:5px 0px 5px 0px;}
+.divider-top-1 i{}
+.ione{color:#ef6755;margin:0px 6px 0px 6px;padding:1px;}
+.ione-2{color:#ef6755;margin:0px 6px 0px 0px;padding:1px;}
+.itwo{color:#f0c854;margin:0px 6px 0px 6px;padding:1px;}
+.ithree{color:#3fb49c;margin:0px 0px 0px 6px;padding:1px;}
+.ithree-2{color:#3fb49c;margin:0px 0px 0px 6px;padding:1px;}
+
+
+/* 13. colorbox */
+
+.colorbox img{
+
+	opacity:1;
+	-webkit-transition: all ease .6s;
+    -moz-transition: all ease .6s;
+    -o-transition: all ease .6s;
+    transition: all ease .6s;
+}
+.colorbox img:hover{
+	opacity:0.4;
+	cursor:url('../img/cursor.png'),auto;
+	cursor:url('../img/cursor.cur'),auto;
+}
+
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+/* ######### 13.LOADER FOR WHOLE PAGE ######### */
+.loader_container{position:absolute;top:0;bottom:0;left:0;right:0;z-index:19998;background:#003399;}
+.loader{position:absolute;top: 50%;bottom:0;left:0;right:0;z-index:19999;}
+
+
+
+
+/* ############################################################### PAGE CONTENT  ################################################################
+   ############################################################################################################################################## */
+
+
+
+
+
+/* ####################### SECTION 1 - MAIN PAGE ####################### */
+
+/* 1.graphics - FIRST CLASS overlayed on main title */
+.ribbon{position:absolute;margin-top:60px;z-index:2;}
+
+
+/* 2.container for section 1 with background setted in main.js backstrech plugin */
+.s1{width:100%;background:#003399;background: url('../img/wallpapers/wallpaper1.jpg');background-attachment:fixed;
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+overflow:hidden;
+position:relative;
+}
+.s1-pattern{width:100%;height:100%;}
+
+/* 3.top title */
+.s1-content-top{width:100%;position:relative;}
+.s1-col-title-big{font-family:'Oswald';font-weight:800;word-spacing:8px;font-size:72px;color:#ffffff;padding:140px 0px 10px 0px;line-height:72px;min-height:222px;}
+.s1-col-title-small{font-weight:400;font-size:18px;color:#fff;line-height:1.5;padding:0px 25px 0px 25px;min-height:50px;}
+
+/* 4.col with icons for about_us section */
+.s1-row{padding:20px 0px 0px 0px;}
+.s1-text-box{padding:0px 0px 0px 0px;}
+
+/* 5.containers for titles on left and right column */
+.s1-col-text-left .s1-bold{font-weight:400;font-size:24px;color:#fff;padding:5px 15px 5px 5px;display:inline-block;vertical-align:4px;word-spacing:5px;}
+.s1-col-text-right .s1-bold{font-weight:400;font-size:24px;color:#fff;padding:5px 5px 5px 15px;display:inline-block;vertical-align:4px;word-spacing:5px;}
+.s1-col-text-left .s1-bold strong, .s1-col-text-right .s1-bold strong{font-weight:800;}
+
+/* 6.p tag for text on left side */
+.s1-col-text-left p {font-weight:400;font-size:16px;color:#fff;word-spacing:3px;padding:5px 15px 0px 60px;border-left:30px;padding-left:30px;margin-left:30px;line-height:26px;}
+/* 7.p tag for text on right side */
+.s1-col-text-right p {font-weight:400;font-size:16px;color:#fff;word-spacing:3px;padding:5px 30px 0px 15px;line-height:26px;}
+
+/* 8.buttons on bottom of p tag text */
+.s1-col-buttons{padding:10px 0px 60px 0px;}
+
+
+/* 9.bottom mockups of web browsers */
+.s1-content-bottom{width:100%;position:relative;}
+.s1-content-bottom img{margin:0 auto;}
+
+
+
+
+
+/* ####################### SECTION 2 NEWS SECTION ####################### */
+
+
+
+/* 1.divider visible on bottom of first section - 5px dark line for design effect */
+.s2-divider{background:rgba(0,0,0,0.2);width:100%;height:5px;position:absolute;bottom:0;}
+
+/* 2.container for section 2 */
+.s2{width:100%;background:#003399;padding:0px 0px 0px 0px;min-height:100%;}
+/* 3.pattern for container for section 2 */
+.s2-pattern{background:url('../img/patterns/graphy.png');width:100%;min-height:100%;overflow:hidden;padding:100px 0px 135px 0px;background-attachment:fixed;} /* background:url('../img/patterns/graphy.png'); */
+
+
+
+/* 4.SECTION TITLE */
+
+/* section title BIG */
+.s2-title-h1{font-weight:900;font-size:62px;font-family:'Oswald';color:#ffffff;line-height:1;padding:3px 25px 0px 25px;word-spacing: 5px;}
+.s2-title-h1 span{ font-weight:500;font-family:'Open Sans';}
+
+/* section title smaller on top */
+.s2-title-h2-top{font-weight:400;font-size:18px;color:#F9BF3B;line-height:1.5;padding:0px 25px 10px 25px;}
+.s2-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+
+/* section title smaller on bottom */
+.s2-title-h2-bottom{font-weight:400;font-size:18px;color:#dee1f0;line-height:1.5;padding:10px 25px 0px 25px;}
+.s2-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+
+
+/* 5.CONTAINER FOR EVERY NEWS */
+.s2-news-container{padding:80px 25px 0px 25px;}
+
+/* container for image in news */
+.s2-box-icon {float:left;font-family:'Oswald';font-weight:400;}
+.s2-box-icon img{border:3px solid #dee1f0;width: 100px;height: 100px;color: #ffffff;text-align: center;float:left;}
+.s2-box-icon img:hover{}
+
+
+/* container for text in news */
+.s2-box-content {padding:0px 0px 0px 25px;text-align:left;overflow:hidden;}
+/* title for news */
+.s2-box-content h4 {margin-top:0px;margin-bottom:4px;color:#003399;text-align:left;font-family:'Oswald';color:#f6f6f6;font-weight:400;font-size:19px;line-height:25px;word-spacing:3px;}
+/* text for news */
+.s2-box-content p {font-weight:400;font-size:14px;padding:10px 0px 0px 0px;color:#dee1f0;line-height:26px;}
+/* info with date for news */
+.s2-hint-box{position:absolute;bottom:0;right:0;margin-right:25px;margin-bottom:-30px;background:#dee1f0;color:#003399;padding:4px 10px 4px 10px;font-weight:400;font-family:'Oswald';font-size:13px;}
+/* info with "NEWS" for news also used with pulse class from animate2.css */
+.s2-hint-box.news{position:absolute;background:#EA4E3D !important;color:#003399;bottom:0;right:0;margin-right:25px;margin-bottom:-30px;}
+
+
+
+
+/* ####################### SECTION 3 ICONS SECTION ####################### */
+
+
+/* 1.top divider 5px darked line on top of section */
+.s3-divider{background:#039;width:100%;height:5px;position:absolute;z-index:2}
+/* 2.bottom divider 5px darked line on bottom of section */
+.s3-divider-bottom{background:#039;width:100%;height:5px;position:absolute;z-index:3;margin-top:-5px;}
+
+/* 3.container for section */
+.s3{background:#039;width:100%;}
+
+/* 4.container for sections boxes */
+.s3-col-content{background:#039;padding:0px 0px 0px 0px;}
+
+/* 5.container for every one box with background color */
+.s3-col-1{background:#ffffff;min-height:300px;padding:40px 0px 40px 0px;}
+.s3-col-2{background:#ffffff;min-height:300px;padding:40px 0px 40px 0px;overflow:hidden;}
+.s3-col-3{background:#ffffff;min-height:300px;padding:40px 0px 40px 0px;}
+.s3-col-4{background:#ffffff;min-height:300px;padding:40px 0px 40px 0px;overflow:hidden;}
+
+/* 6.images in boxes */
+.s3-col-1 img, .s3-col-2 img, .s3-col-3 img, .s3-col-4 img{display:inline-block;width:130px;height:130px;}
+
+/* 7.titles in boxes */
+.s3-col-content-title{font-size:24px;color:#ffffff;font-weight:800;font-family:'Oswald';word-spacing:5px;letter-spacing:0px;padding:15px 30px 15px 30px;}
+/* 8.description in boxes */
+.s3-col-content-description{font-size:14px;font-weight:400;padding:0px 30px 20px 30px;color:#ffffff;line-height:26px;}
+
+
+
+
+/* ####################### SECTION 4 OUR THEMES TO BUY  ####################### */
+
+/* 1.container for section */
+.s4{}
+/* 2.5px divider dark line visible on top of section */
+.s4-divider{background:rgba(0,0,0,0.1);width:100%;height:5px;position:absolute;z-index:11;}
+/* 3.pattern container for section */
+.s4-pattern{background:#003399 url('../img/patterns/pattern2.png');padding:80px 0px 0px 0px;background-attachment:fixed;} /* url('../img/patterns/graphy.png') */
+
+
+/* 4.SECTION TITLE */
+
+/* section title BIG */
+.s4-title-h1{font-weight:900;font-size:62px;font-family:'Oswald';color:#ffffff;line-height:1;padding:3px 25px 0px 25px;word-spacing: 5px;}
+.s4-title-h1 span{ font-weight:500;font-family:'Open Sans';}
+
+/* section title smaller on top */
+.s4-title-h2-top{font-weight:400;font-size:18px;color:#40a0f9;line-height:1.5;padding:0px 25px 10px 25px;}
+.s4-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+
+/* section title smaller on bottom */
+.s4-title-h2-bottom{font-weight:400;font-size:18px;color:#40a0f9;line-height:1.5;padding:10px 25px 0px 25px;}
+.s4-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+
+
+/* 5.carousel for section - main.js carousel - more CSS for carousel in CSS/OWL folder and on product site for owl carousel */
+.owl-carousel{margin:0px 0px 0px 0px;padding:80px 26px 0px 26px;}
+/* 6.item for carousel */
+.item{margin:0px 8px 0px 8px;padding:0px 0px 20px 0px;cursor:pointer;text-align:center;}
+/* 7.images in carousel */
+.item img{
+	box-shadow: 0px 0px 0px 6px #003399;display:block;height:auto;display:inline-block;
+
+	-webkit-transition: all ease .6s;
+    -moz-transition: all ease .6s;
+    -o-transition: all ease .6s;
+    transition: all ease .6s;
+}
+
+
+/* 8.item hover */
+.item img:hover{
+	box-shadow: 0px 0px 0px 6px #003399;
+	opacity:0.2;
+	cursor:url('../img/cursor.png'),auto;
+	cursor:url('../img/cursor.cur'),auto;
+
+}
+
+
+
+
+
+/* ####################### SECTION 5 VIDEO SHOW ####################### */
+
+
+/* 1.section container */
+.s6{}
+/* 2.pattern for section */
+.s6-pattern{padding:0px 0px 100px 0px;background: #003399 url('../img/patterns/pattern2.png');background-attachment:fixed;}
+
+/* 3.SECTION TITLE */
+
+/* section title BIG */
+.s6-col-title-container{padding:0px 0px 0px 0px;}
+.s6-title-h1{font-weight:900;font-size:62px;font-family:'Oswald';color:#ffffff;line-height:1;padding:3px 25px 0px 25px;word-spacing: 5px;}
+.s6-title-h1 span{ font-weight:500;font-family:'Open Sans';}
+.s6-title-h1 span.small{font-size:42px;}
+/* section title smaller on top */
+.s6-title-h2-top{font-weight:400;font-size:18px;color:#40a0f9;line-height:1.5;padding:0px 25px 10px 25px;}
+.s6-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+
+
+/* section title smaller on bottom */
+.s6-title-h2-bottom{font-weight:400;font-size:18px;color:#40a0f9;line-height:1.5;padding:10px 25px 0px 25px;}
+.s6-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+.validate-contact form{color:blue;}
+
+
+/* 4.VIDEO CONTAINER */
+.s6-col-video{padding:60px 0px 0px 0px;}
+.video-container {position: relative;padding-bottom: 56.25%;padding-top: 30px; height: 0; overflow: hidden;border:3px solid #fff;}
+.video-container iframe,.video-container object,.video-container embed {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+
+
+
+
+
+/* ####################### SECTION 6 NEWSLETTER ####################### */
+
+/* 1.container for section */
+.s5{background:#8a2c3b;}
+/* 2.left box with color */
+.s5-left{background:#ac2f39;padding:80px 0px 80px 0px;}
+/* 3.right box with color */
+.s5-right{background:#8a2c3b;padding:80px 0px 0px 0px;}
+
+/* 4.centerd in main.js icon for section */
+.s5-image{position:absolute;z-index:6;margin-top:-25px;}
+/* 5.5px divider dark line on top of section */
+.s5-divider{background:rgba(0,0,0,0.1);width:100%;height:5px;position:absolute;z-index:4;}
+/* 6.5px divider dark line on bottom of section */
+.s5-divider-bottom{background:rgba(0,0,0,0.1);width:100%;height:5px;position:absolute;z-index:3;margin-top:-5px;}
+
+
+
+/* 7.titles/content in left box */
+.s5-col-title-container{padding:0px 0px 0px 0px;}
+.s5-title-h1{font-weight:900;font-size:62px;font-family:'Oswald';color:#ffffff;line-height:1;padding:3px 25px 0px 25px;word-spacing: 5px;}
+.s5-title-h1 span{ font-weight:500;font-family:'Open Sans';}
+
+.s5-title-h2-top{font-weight:400;font-size:18px;color:#fff;line-height:1.5;padding:0px 25px 7px 25px;}
+.s5-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+
+.s5-title-h2-bottom{font-weight:400;font-size:18px;color:#fff;line-height:1.5;padding:7px 25px 0px 25px;}
+.s5-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+
+
+/* 8.content in right box - submit field and button */
+
+/* titles/content in right box */
+.s5-col-title-container-2{padding:0px 0px 0px 0px;}
+.s5-title-h1-2{font-weight:900;font-size:62px;font-family:'Oswald';color:#003399;line-height:1;padding:3px 25px 0px 25px;word-spacing: 5px;}
+.s5-title-h1-2 span{ font-weight:500;font-family:'Open Sans';}
+
+.s5-title-h2-top-2{font-weight:400;font-size:18px;color:#003399;line-height:1.5;padding:0px 25px 2px 25px;}
+.s5-title-h2-2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+
+.s5-title-h2-bottom-2{font-weight:400;font-size:18px;color:#003399;line-height:1.5;padding:2px 25px 0px 25px;}
+.s5-title-h2-2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+
+.s5-right-info-top{padding:0px 0px 15px 0px;font-size:30px;color:#003399;font-weight:800;font-family:"Oswald";word-spacing:5px;}
+.s5-col-form-input{padding:15px 0px 0px 0px;}
+.input-submit{border-radius:6px !important;border-top-right-radius:0 !important;border-bottom-right-radius:0 !important;background:#672a3d !important;color:#ffffff !important;}
+.s5-submit{padding:0px 0px 0px 0px;}
+
+
+
+
+
+/* #######################  SECTION 7 BLOG #######################  */
+
+/* 1.container for section */
+.s7{
+
+	background: url('../img/wallpapers/wallpaper3.jpg') no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+
+}
+
+/* 2.5px divider dark line on top and bottom of section */
+.s7-divider{background:rgba(0,0,0,0.1);width:100%;height:5px;position:absolute;z-index:8;}
+.s7-divider-bottom{background:rgba(0,0,0,0.05);width:100%;height:5px;position:absolute;z-index:9;margin-top:-5px;}
+
+/* 3.pattern for section - here setted image in main.js backstrech plugin */
+.s7-pattern{min-height:100%;padding:60px 0px 60px 0px;}
+
+/* 4.SECTION TITLE */
+
+/* section title BIG */
+.s7-col-title-container{padding:0px 0px 0px 0px;}
+.s7-title-h1{font-weight:900;font-size:62px;font-family:'Oswald';color:#fff;line-height:1;padding:3px 25px 0px 25px;word-spacing: 5px;}
+.s7-title-h1 span{ font-weight:500;font-family:'Open Sans';}
+/* section title smaller on top */
+.s7-title-h2-top{font-weight:400;font-size:18px;color:#fff;line-height:1.5;padding:0px 25px 10px 25px;}
+.s7-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+/* section title smaller on bottom */
+.s7-title-h2-bottom{font-weight:400;font-size:18px;color:#fff;line-height:1.5;padding:10px 25px 0px 25px;}
+.s7-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+
+/* 5.container for all 4 blogs boxes */
+.s7-col-content{padding:80px 0px 0px 0px;}
+
+
+/* 6.container for box */
+.s7-col-item{}
+/* 7.image in box */
+.s7-col-item img{
+	margin:0 auto;box-shadow: 0px 0px 0px 6px #1a1d29;
+	-webkit-transition: all ease .6s;
+    -moz-transition: all ease .6s;
+    -o-transition: all ease .6s;
+    transition: all ease .6s;
+}
+.s7-col-item img:hover{margin:0 auto;box-shadow: 0px 0px 0px 6px #1a1d29;
+
+	opacity:0.4;
+	cursor:url('../img/cursor.png'),auto;
+	cursor:url('../img/cursor.cur'),auto;
+}
+
+/* 8.title of blog */
+.s7-col-description-title{padding:30px 0px 0px 0px;color:#ffffff;font-weight:800;font-size:24px;word-spacing: 5px;font-family:'Oswald';}
+
+/* 9.descriptions of blog box - date and comments count */
+.s7-col-description-bottom{padding:15px 0px 15px 0px;}
+.s7-col-description-bottom-item{display:inline-block;margin:0px 0px 0px 0px;color:#3FC380;font-weight:400;}
+.s7-col-description-bottom-item i.last{margin:0px 4px 0px 10px;}
+.s7-col-description-bottom-item i{margin:0px 4px 0px 0px;}
+
+/* 10.blog content */
+.s7-col-blog-content{padding:30px 0px 15px 0px;font-weight:400;font-size:14px;color:#fff;line-height:26px;}
+/* 11.read more link */
+.s7-col-blog-content a{color:#3FC380;}
+
+
+
+
+
+
+/* #######################  SECTION 8 CONTACT #######################  */
+
+/* 1.container for section */
+.s8{background:#222735;}
+/* 2.pattern for section */
+.s8-pattern{background:#222735;background:url('../img/patterns/pattern2.png');padding:80px 0px 40px 0px;}
+
+/* 3.SECTION TITLE */
+
+/* section title BIG */
+.s8-col-title-container{padding:0px 0px 0px 0px;}
+.s8-title-h1{font-weight:900;font-size:62px;font-family:'Oswald';color:#ffffff;line-height:1;padding:3px 25px 0px 25px;word-spacing: 5px;}
+.s8-title-h1 span{ font-weight:500;font-family:'Open Sans';}
+/* section title smaller on top */
+.s8-title-h2-top{font-weight:400;font-size:18px;color:#F9BF3B;line-height:1.5;padding:0px 25px 10px 25px;}
+.s8-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+/* section title smaller on bottom */
+.s8-title-h2-bottom{font-weight:400;font-size:18px;color:#3FC380;line-height:1.5;padding:10px 25px 0px 25px;}
+.s8-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+
+/* 4.container for contact form */
+.s8-col-contact{padding:60px 0px 15px 0px;}
+
+/* 5.textarea behavior */
+.s8-col-contact textarea{
+	box-shadow:none;font-weight:400;border-radius:6px !important;background:transparent !important;border:1px solid #394158 !important;color:#ffffff !important;resize:none;
+	-webkit-transition: all ease .6s;
+    -moz-transition: all ease .6s;
+    -o-transition: all ease .6s;
+    transition: all ease .6s;
+}
+.s8-col-contact textarea:focus {box-shadow:none !important;outline:0;background:transparent !important;border:1px solid #40a0f9 !important;border-radius:6px !important;}
+.s8-col-contact textarea:active:hover{box-shadow:none !important;outline:0;background:transparent !important;border:1px solid #40a0f9 !important;border-radius:6px !important;}
+.s8-col-contact textarea:hover{box-shadow:none !important;outline:0;background:transparent !important;border:1px solid #40a0f9 !important;border-radius:6px !important;}
+
+/* 6.inputs behavior */
+.s8-col-contact input{
+	box-shadow:none;font-weight:400;background:transparent !important;border:1px solid #394158 !important;color:#ffffff !important;border-radius:6px !important;
+	-webkit-transition: all ease .6s;
+    -moz-transition: all ease .6s;
+    -o-transition: all ease .6s;
+    transition: all ease .6s;
+}
+.s8-col-contact input:focus {box-shadow:none !important;outline:0;background:transparent !important;border:1px solid #fff !important;border-radius:6px !important;}
+.s8-col-contact input:active:hover{box-shadow:none !important;outline:0;background:transparent !important;border:1px solid #fff !important;border-radius:6px !important;}
+.s8-col-contact input:hover{box-shadow:none !important;outline:0;background:transparent !important;border:1px solid #fff !important;border-radius:6px !important;}
+
+/* 7.submit button */
+.btn-submit-custom{margin:10px 0px 0px 0px !important;background:transparent;color:#ffffff;border:1px solid #fac51f;}
+.btn-submit-custom:hover{margin:10px 0px 0px 0px !important;background:transparent;color:#fac51f;border:1px solid #fac51f;}
+.btn-submit-custom:focus{margin:10px 0px 0px 0px !important;background:transparent;color:#fac51f;border:1px solid #fac51f;}
+.btn-submit-custom:active:hover{margin:10px 0px 0px 0px !important;background:transparent;color:#fac51f;border:1px solid #fac51f;}
+
+/* 8.column for inputs - used in media.css for responsive behavior */
+.s8-col-md-left{padding:0px 15px 0px 0px}
+.s8-col-md-right{padding:0px 0px 0px 15px}
+
+
+
+
+
+
+
+/* ############################################################### MODAL BOXES  ################################################################
+   ############################################################################################################################################## */
+
+
+
+/* ################### BOOTSTRAP MODAL CUSTOMIZE GLOBAL SETTINGS  ################################################################
+   ############################################################################################################################## */
+
+/* change speed for fade in and fade out of modals */
+.modal.fade {
+  top: 0;
+  	-webkit-transition: all ease .3s;
+  -moz-transition: all ease .3s;
+  -o-transition: all ease .3s;
+  transition: all ease .3s;
+}
+
+.modal.fade.in {
+  top: 0;
+}
+
+/* fix for padding-right when modal is open on FF IE */
+.modal-open{
+  padding-right: 0 !important;
+}
+
+/* ########### 1.modal dialog width and height  - full page ########### */
+.modal{background: rgba(27,29,41,1) url('../img/patterns/pattern2.png');padding:0;height:100% !important;}
+.modal-dialog {width: 100%;height: 100%;margin: 0;}
+.dialog-1, .dialog-2{}
+
+/* ########### 2.setted general behavior for modal box - minimal top padding for mobiles fix, word spacing, background, border, and outline reset from bootstrap standard ########### */
+.modal-content-1, .modal-content-2 {
+	padding:0px 0px 0px 0px;
+	word-spacing:4px; font-weight:400;text-align:center;width:100%;
+	background:transparent !important;color:#80849f !important;border-radius:0 !important;
+	border:0 !important;
+	outline:0 !important;
+}
+
+.modal-body {position:absolute;left:0;right:0;width:100%;z-index:88888;}
+.modal-body-content{padding:0px 0px 0px 0px;}
+.modal-footer {position:absolute;bottom:0;left:0;right:0;border:0 !important;}
+
+/* 3.background ( overlay for modal box - here setted to opacity:0 ) - You can change opacity if You don't want to have main page on background when modal is opened */
+.modal-backdrop {opacity:0 !important;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";}
+
+/* END MODAL CUSTOMIZE GLOBAL SETTINGS */
+
+
+
+
+/* #######################  MODAL ONE FOR OUR THEMES BUY AND BLOGS #######################
+
+/* ########## 1.modal buttons ########## */
+.info-left:hover{color:#80849f;cursor:default;}
+.modal-col-buttons{padding:0px 0px 5px 0px;font-family:'Oswald';margin-bottom:25px;}
+.modal-col-buttons-divider-container{padding:0px 0px 0px 15px;}
+.modal-col-buttons-divider{height:1px;background:#303345;padding:0px 0px 0px 0px;margin-top:15px;}
+
+.modal-b-close{color:#ffffff;}
+.modal-b-close:hover{color:#ffffff;}
+.modal-b-close:focus{color:#ffffff;}
+
+/* close button - not for BLOG modal */
+.modal-close{
+	display:inline-block;padding:6px 12px 6px 12px;background:#303345;border-radius:0 !important;margin:0px 0px 0px 15px;
+	-webkit-transition: all ease .6s;
+    -moz-transition: all ease .6s;
+    -o-transition: all ease .6s;
+    transition: all ease .6s;
+}
+.modal-close:hover{display:inline-block;padding:6px 12px 6px 12px;background:#222430;border-radius:0 !important;margin:0px 0px 0px 15px;}
+.modal-close a{color:#ffffff;text-decoration:none;border-radius:0 !important;font-weight:800;}
+
+.modal-online{
+	display:inline-block;padding:6px 12px 6px 12px;background:#303345;border-radius:0 !important;margin:0px 0px 0px 15px;
+	-webkit-transition: all ease .6s;
+    -moz-transition: all ease .6s;
+    -o-transition: all ease .6s;
+    transition: all ease .6s;
+}
+.modal-online:hover{display:inline-block;padding:6px 12px 6px 12px;background:#222430;border-radius:0 !important;margin:0px 0px 0px 15px;}
+.modal-online a{color:#ffffff;text-decoration:none;border-radius:0 !important;font-weight:800;}
+
+/* but button and close button for BLOG MODAL */
+.modal-buy{display:inline-block;padding:6px 12px 6px 12px;background:#EA4E3D;border-radius:0 !important;margin:0px 0px 0px 15px;}
+.modal-buy a{color:#ffffff;text-decoration:none;border-radius:0 !important;font-weight:800;}
+
+
+/* 2.modal app container */
+.col-modal-content{padding:05px 0px 25px 0px;} /*  border:1px solid red; */
+.mainimg{margin:0 auto;box-shadow: 0px 0px 0px 4px #1a1d29}
+
+/* 3.MODAL APP TITLE */
+.title-col-modal-app{font-weight:800;font-family:'Oswald';color:#ffffff;margin-top:-9px;}
+
+/* modal app titles */
+.title-col-modal-app-big{font-size:32px;letter-spacing:3px;word-spacing:4px;font-weight:800;}
+.title-col-modal-app-bottom{font-size:16px;color:#3FC380;font-weight:400;font-family:'Open Sans';letter-spacing:0px;word-spacing:2px;}
+
+/* 4.modal descriptions */
+.title-col-modal-app p.small{line-height:26px;display:inline-block;font-size:15px;color:#dee1f0;font-weight:400;font-family:'Open Sans';letter-spacing:0px;word-spacing:2px;padding:15px 0px 0px 0px;}
+.title-col-modal-app p.smaller{line-height:24px;display:inline-block;font-size:13px;color:#aeb4cd;font-weight:400;font-family:'Open Sans';letter-spacing:0px;word-spacing:2px;padding:5px 0px 0px 0px;}
+
+/* 5.modal bottom images list */
+.col-modal-bottom{letter-spacing:0px;word-spacing:0px;padding:0px 0px 0px 0px;}
+.modal-bottom-images{word-spacing:0px;text-align:left;padding:0px 0px 0px 0px !important;}
+.modal-bottom-images img{display:inline-block;width:48px;height:48px;margin:6px 7px 6px 0px;box-shadow: 0px 0px 0px 4px #1a1d29;word-spacing:0px;}
+
+/* 6.modal bottom tags */
+.col-modal-tag-container{text-align:left;padding:0px 0px 0px 0px;letter-spacing:0px;word-spacing:0px;}
+.col-modal-tag{
+	display:inline-block;background:#303345;color:#dee1f0;padding:4px 10px 6px 10px;font-weight:400;font-family:'Oswald';font-size:13px;margin:0px 0px 2px 0px;
+	-webkit-transition: all ease .6s;
+    -moz-transition: all ease .6s;
+    -o-transition: all ease .6s;
+    transition: all ease .6s;
+	cursor:default;
+}
+.col-modal-tag:hover{
+	display:inline-block;background:#222430;color:#dee1f0;padding:4px 10px 6px 10px;font-weight:400;font-family:'Oswald';font-size:13px;margin:0px 0px 2px 0px;
+}
+
+/* 7.modal tags title */
+.col-divider-container{padding:10px 0px 0px 0px;}
+.col-divider-line{width:40px;height:1px;background:#3FC380;margin:15px 0px 18px 0px;}
+
+/* 8.modal photos title */
+
+.col-divider-container-photos{padding:25px 0px 0px 0px;font-weight:800;font-family:'Oswald';color:#ffffff;}
+.col-divider-line{width:40px;height:1px;background:#3FC380;margin:15px 0px 18px 0px;}
+
+
+
+/* #######################  MODAL TWO ONLY FOR BLOGS #######################  */
+.modal-blog-created{word-spacing:0px;padding:0px 0px 15px 0px !important;color:#F9BF3B;font-size:14px;margin-top:-5px;}
+.modal-blog-created i{margin:0px 4px 0px 0px;color:#F9BF3B;}
