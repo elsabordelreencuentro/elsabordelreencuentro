@@ -139,7 +139,8 @@ BOOTSTRAP MODAL CUSTOMIZE GLOBAL SETTINGS - Rules for bootstrap modal box
 html {width:100%;-webkit-font-smoothing: antialiased;height:100%;overflow:hidden;}
 
 /* 2.body */
-body{width:100%;height:100%;font-family:'Open Sans';margin:0 auto;font-weight:300;position:fixed;background:#2e3245;color:#000;}
+body{width:100%;height:100%;font-family: 'Open Sans', sans-serif;
+margin:0 auto;font-weight:300;position:fixed;background:#2e3245;color:#000;}
 
 *{ margin:0; }
 
@@ -483,7 +484,8 @@ position:relative;
 
 /* section title BIG */
 .s2-title-h1{font-weight:900;font-size:62px;font-family:'Oswald';color:#ffffff;line-height:1;padding:3px 25px 0px 25px;word-spacing: 5px;}
-.s2-title-h1 span{ font-weight:500;font-family:'Open Sans';}
+.s2-title-h1 span{ font-weight:600;font-family: 'Open Sans', sans-serif;
+;}
 
 /* section title smaller on top */
 .s2-title-h2-top{font-weight:400;font-size:18px;color:#fff;line-height:1.5;padding:0px 25px 23px 25px;}
