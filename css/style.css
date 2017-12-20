@@ -656,12 +656,12 @@ letter-spacing:-2px;font-size:28px;}
 
 /* ####################### SECTION 6 NEWSLETTER ####################### */
 
-/* 1.container for section */
-.s5{background:#8a2c3b; background-attachment: }
+/* 1.container for section*/
+.s5{background:#8a2c3b;}
 /* 2.left box with color */
-.s5-left{background:#ac2f39;padding:80px 80px 80px 50px;}
+.s5-left{background:#ac2f39;padding:80px 0px 80px 0px;}
 /* 3.right box with color */
-.s5-right{background:#8a2c3b;padding:80px 80px 80px 80px;}
+.s5-right{background:#8a2c3b;padding:80px 0px 0px 0px;}
 
 /* 4.centerd in main.js icon for section */
 .s5-image{position:absolute;z-index:6;margin-top:-25px;}
