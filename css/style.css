@@ -489,11 +489,13 @@ position:relative;
 
 /* section title smaller on top */
 .s2-title-h2-top{font-weight:400;font-size:18px;color:#fff;line-height:1.5;padding:0px 25px 23px 25px;}
-.s2-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+.s2-title-h2 span{font-weight:300;font-family: 'Open Sans', sans-serif;
+letter-spacing:-2px;font-size:28px;}
 
 /* section title smaller on bottom */
 .s2-title-h2-bottom{font-weight:400;font-size:15px;color:#dee1f0;line-height:1.5;padding:10px 25px 0px 25px;}
-.s2-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+.s2-title-h2 span{font-weight:300;font-family: 'Open Sans', sans-serif;
+letter-spacing:-2px;font-size:28px;}
 
 
 /* 5.CONTAINER FOR EVERY NEWS */
@@ -564,15 +566,18 @@ position:relative;
 
 /* section title BIG */
 .s4-title-h1{font-weight:900;font-size:62px;font-family:'Oswald';color:#ffffff;line-height:1;padding:3px 25px 0px 25px;word-spacing: 5px;}
-.s4-title-h1 span{ font-weight:500;font-family:'Open Sans';}
+.s4-title-h1 span{ font-weight:400;font-family: 'Open Sans', sans-serif;
+}
 
 /* section title smaller on top */
 .s4-title-h2-top{font-weight:400;font-size:18px;color:#40a0f9;line-height:1.5;padding:0px 25px 20px 25px;}
-.s4-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+.s4-title-h2 span{font-weight:300;font-family: 'Open Sans', sans-serif;
+letter-spacing:-2px;font-size:28px;}
 
 /* section title smaller on bottom */
 .s4-title-h2-bottom{font-weight:400;font-size:18px;color:#40a0f9;line-height:1.5;padding:10px 25px 0px 25px;}
-.s4-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+.s4-title-h2 span{font-weight:300;font-family: 'Open Sans', sans-serif;
+letter-spacing:-2px;font-size:28px;}
 
 
 /* 5.carousel for section - main.js carousel - more CSS for carousel in CSS/OWL folder and on product site for owl carousel */
@@ -618,16 +623,19 @@ position:relative;
 /* section title BIG */
 .s6-col-title-container{padding:0px 0px 0px 0px;}
 .s6-title-h1{font-weight:900;font-size:62px;font-family:'Oswald';color:#ffffff;line-height:1;padding:3px 25px 0px 25px;word-spacing: 5px;}
-.s6-title-h1 span{ font-weight:500;font-family:'Open Sans';}
+.s6-title-h1 span{ font-weight:400;font-family: 'Open Sans', sans-serif;
+}
 .s6-title-h1 span.small{font-size:42px;}
 /* section title smaller on top */
 .s6-title-h2-top{font-weight:400;font-size:18px;color:#fff;line-height:1.5;padding:0px 25px 10px 25px;}
-.s6-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+.s6-title-h2 span{font-weight:300;font-family: 'Open Sans', sans-serif;
+letter-spacing:-2px;font-size:28px;}
 
 
 /* section title smaller on bottom */
 .s6-title-h2-bottom{font-weight:400;font-size:18px;color:#FFF;line-height:1.5;padding:10px 0px 5px 25px;}
-.s6-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+.s6-title-h2 span{font-weight:300;font-family: 'Open Sans', sans-serif;
+letter-spacing:-2px;font-size:28px;}
 .validate-contact form{color:blue;}
 
 
@@ -663,13 +671,16 @@ position:relative;
 /* 7.titles/content in left box */
 .s5-col-title-container{padding:0px 0px 0px 0px;}
 .s5-title-h1{font-weight:900;font-size:35px;font-family:'Oswald';color:#ffffff;line-height:1;padding:3px 25px 0px 25px;word-spacing: 5px;}
-.s5-title-h1 span{ font-weight:500;font-family:'Open Sans';}
+.s5-title-h1 span{ font-weight:400;font-family: 'Open Sans', sans-serif;
+v}
 
 .s5-title-h2-top{font-weight:400;font-size:18px;color:#fff;line-height:1.5;padding:0px 25px 7px 25px;}
-.s5-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+.s5-title-h2 span{font-weight:300;font-family: 'Open Sans', sans-serif;
+letter-spacing:-2px;font-size:28px;}
 
 .s5-title-h2-bottom{font-weight:400;font-size:18px;color:#fff;line-height:1.5;padding:7px 25px 50px 25px;margin-top: 25px;}
-.s5-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+.s5-title-h2 span{font-weight:300;font-family: 'Open Sans', sans-serif;
+letter-spacing:-2px;font-size:28px;}
 
 
 /* 8.content in right box - submit field and button */
@@ -677,13 +688,16 @@ position:relative;
 /* titles/content in right box */
 .s5-col-title-container-2{padding:0px 0px 0px 0px;}
 .s5-title-h1-2{font-weight:900;font-size:62px;font-family:'Oswald';color:#003399;line-height:1;padding:3px 25px 0px 25px;word-spacing: 5px;}
-.s5-title-h1-2 span{ font-weight:500;font-family:'Open Sans';}
+.s5-title-h1-2 span{ font-weight:400;font-family: 'Open Sans', sans-serif;
+}
 
 .s5-title-h2-top-2{font-weight:400;font-size:18px;color:#003399;line-height:1.5;padding:0px 25px 2px 25px;}
-.s5-title-h2-2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+.s5-title-h2-2 span{font-weight:300;font-family: 'Open Sans', sans-serif;
+letter-spacing:-2px;font-size:28px;}
 
 .s5-title-h2-bottom-2{font-weight:400;font-size:18px;color:#003399;line-height:1.5;padding:2px 25px 0px 25px;}
-.s5-title-h2-2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+.s5-title-h2-2 span{font-weight:300;font-family: 'Open Sans', sans-serif;
+letter-spacing:-2px;font-size:28px;}
 
 .s5-right-info-top{padding:0px 0px 15px 0px;font-size:30px;color:#8a2c3b;font-weight:800;font-family:"Oswald";word-spacing:5px;}
 .s5-col-form-input{background:#8a2c3b;padding:15px 30px 0px 30px;}
@@ -719,13 +733,16 @@ position:relative;
 /* section title BIG */
 .s7-col-title-container{padding:0px 0px 0px 0px;}
 .s7-title-h1{font-weight:900;font-size:62px;font-family:'Oswald';color:#fff;line-height:1;padding:3px 25px 0px 25px;word-spacing: 5px;}
-.s7-title-h1 span{ font-weight:500;font-family:'Open Sans';}
+.s7-title-h1 span{ font-weight:400;font-family: 'Open Sans', sans-serif;
+}
 /* section title smaller on top */
 .s7-title-h2-top{font-weight:400;font-size:18px;color:#fff;line-height:1.5;padding:0px 25px 10px 25px;}
-.s7-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+.s7-title-h2 span{font-weight:300;font-family: 'Open Sans', sans-serif;
+letter-spacing:-2px;font-size:28px;}
 /* section title smaller on bottom */
 .s7-title-h2-bottom{font-weight:400;font-size:18px;color:#fff;line-height:1.5;padding:10px 25px 0px 25px;}
-.s7-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+.s7-title-h2 span{font-weight:300;font-family: 'Open Sans', sans-serif;
+letter-spacing:-2px;font-size:28px;}
 
 /* 5.container for all 4 blogs boxes */
 .s7-col-content{padding:80px 0px 0px 0px;}
@@ -782,13 +799,16 @@ position:relative;
 /* section title BIG */
 .s8-col-title-container{padding:0px 0px 0px 0px;}
 .s8-title-h1{font-weight:900;font-size:62px;font-family:'Oswald';color:#ffffff;line-height:1;padding:3px 25px 0px 25px;word-spacing: 5px;}
-.s8-title-h1 span{ font-weight:500;font-family:'Open Sans';}
+.s8-title-h1 span{ font-weight:400;font-family: 'Open Sans', sans-serif;
+}
 /* section title smaller on top */
 .s8-title-h2-top{font-weight:400;font-size:18px;color:#fff;line-height:1.5;padding:0px 25px 10px 25px;}
-.s8-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+.s8-title-h2 span{font-weight:300;font-family: 'Open Sans', sans-serif;
+letter-spacing:-2px;font-size:28px;}
 /* section title smaller on bottom */
 .s8-title-h2-bottom{font-weight:400;font-size:18px;color:#fff;line-height:1.5;padding:10px 25px 0px 25px;}
-.s8-title-h2 span{font-weight:300;font-family:'Open Sans';letter-spacing:-2px;font-size:28px;}
+.s8-title-h2 span{font-weight:300;font-family: 'Open Sans', sans-serif;
+letter-spacing:-2px;font-size:28px;}
 
 /* 4.container for contact form */
 .s8-col-contact{padding:15px 0px 15px 0px;}
@@ -938,11 +958,14 @@ position:relative;
 
 /* modal app titles */
 .title-col-modal-app-big{font-size:32px;letter-spacing:3px;word-spacing:4px;font-weight:800;}
-.title-col-modal-app-bottom{font-size:16px;color:#3FC380;font-weight:400;font-family:'Open Sans';letter-spacing:0px;word-spacing:2px;}
+.title-col-modal-app-bottom{font-size:16px;color:#3FC380;font-weight:400;font-family: 'Open Sans', sans-serif;
+letter-spacing:0px;word-spacing:2px;}
 
 /* 4.modal descriptions */
-.title-col-modal-app p.small{line-height:26px;display:inline-block;font-size:15px;color:#dee1f0;font-weight:400;font-family:'Open Sans';letter-spacing:0px;word-spacing:2px;padding:15px 0px 0px 0px;}
-.title-col-modal-app p.smaller{line-height:24px;display:inline-block;font-size:13px;color:#aeb4cd;font-weight:400;font-family:'Open Sans';letter-spacing:0px;word-spacing:2px;padding:5px 0px 0px 0px;}
+.title-col-modal-app p.small{line-height:26px;display:inline-block;font-size:15px;color:#dee1f0;font-weight:400;font-family: 'Open Sans', sans-serif;
+letter-spacing:0px;word-spacing:2px;padding:15px 0px 0px 0px;}
+.title-col-modal-app p.smaller{line-height:24px;display:inline-block;font-size:13px;color:#aeb4cd;font-weight:400;font-family: 'Open Sans', sans-serif;
+letter-spacing:0px;word-spacing:2px;padding:5px 0px 0px 0px;}
 
 /* 5.modal bottom images list */
 .col-modal-bottom{letter-spacing:0px;word-spacing:0px;padding:0px 0px 0px 0px;}
