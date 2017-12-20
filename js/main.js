@@ -16,7 +16,7 @@ $(document).on("ready page:change", function() {
 //second title dynamicaly written
 function typed_txt(){
 	$(".element").typed({
-		strings: ["Desde que primero probaste una Quilmes hasta que nos dejaste por otra bebida, nosotros siempre estuvimos ahí esperando que vuelvas"],
+		strings: [""],
 	    typeSpeed: 10,
 		backSpeed: 0,
 		loop: true,
