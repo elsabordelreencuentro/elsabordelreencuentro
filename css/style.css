@@ -224,7 +224,7 @@ img{border:0;}
 
 /* Facebook */
 .fa-facebook {color: #40a0f9;
-		text-decoration: none;
+		width: 0px;
 		padding: 20px;
 	    font-size: 30px;
 	    text-align: center;
@@ -233,20 +233,18 @@ img{border:0;}
 
 /* Twitter */
 .fa-twitter {
+	width: 0px;
 	padding: 20px;
     font-size: 30px;
     text-align: center;
-    text-decoration: none !important;
-    background: ;
     color: #40a0f9;
 		text-decoration: none !important;
 }
 .fa-instagram {
+	width: 0px;
 	padding: 20px;
     font-size: 30px;
     text-align: center;
-    text-decoration: none !important;
-    background: ;
     color: #40a0f9;
 		text-decoration: none !important;
 }
@@ -258,25 +256,25 @@ img{border:0;}
 .navbar-default .navbar-nav>.active>a{color:#40a0f9;}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus{background:transparent !important;color:#40a0f9;}
 .navbar-default .navbar-nav>.active>a:hover{color:#40a0f9;}
-.navbar-collapse{padding:0;overflow:hidden; margin-left: 30px;}
+.navbar-collapse{padding:0;overflow:hidden;}
 .navbar-fixed-top{z-index:9999;}
 
 /* logotype one top left */
-.navbar-brand{padding:0px 0px 0px 20px;margin-top:15px 0px 0px 15px;}
-.logotype img{margin:20px 0px 15px 15px;padding:0px;width:60px;}
+.navbar-brand{padding:0px 0px 0px 35px;}
+.logotype img{margin-top:20px;margin-right:20px;padding:0px;width:60px;}
 .logotype:hover {
     opacity: 0.85;
 }
 .left-menu{position:absolute;margin:28px 0px 0px 4px;}
 
 /* 8.change right menu bootstrap button behavior - visible in small resolutions */
-.navbar-header .navbar-toggle  { margin-right:30px !important;}
+.navbar-header .navbar-toggle  { margin-right:25px !important;}
 .navbar-default .navbar-toggle { border-color:#40a0f9 !important;}
-.navbar-default .navbar-toggle .icon-bar{margin-top: 5px; margin-bottom: 5px; background-color:#40a0f9 !important;}
+.navbar-default .navbar-toggle .icon-bar{background-color:#40a0f9 !important;}
 .navbar-default .navbar-toggle:hover{background:transparent !important}
 .navbar-default .navbar-toggle:active:hover{background:transparent !important}
 .navbar-default .navbar-toggle:focus{background:transparent !important}
-
+.navbar-toggle {margin-left: 50px;}
 /* END NAVBAR */
 
 
