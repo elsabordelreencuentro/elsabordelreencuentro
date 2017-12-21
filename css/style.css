@@ -424,7 +424,7 @@ border:0;font-weight:800;font-size:21px;letter-spacing:0px;word-spacing:4px;over
 
 
 /* 2.container for section 1 with background setted in main.js backstrech plugin */
-.s1{width:100%;background:#2e3245;background: url('../img/wallpapers/wallpaper1.jpg');background-attachment:fixed;
+.s1{width:100%;background:#2e3245;background: url('../img/wallpapers/wallpaper1.jpg');background-attachment:fixed;}
 
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -618,9 +618,7 @@ letter-spacing:-2px;font-size:28px;}
 /* 1.section container */
 .s6{}
 /* 2.pattern for section */
-.s6-pattern{padding:150px 0px 100px 0px;background: url('../img/wallpapers/wallpaper2.jpg')no-repeat center;background-attachment:fixed;
-
-}
+.s6-pattern{padding:150px 0px 100px 0px;background: url('../img/wallpapers/wallpaper2.jpg')no-repeat center;background-attachment:fixed;}
 
 /* 3.SECTION TITLE */
 
