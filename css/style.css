@@ -438,7 +438,7 @@ position:relative;
 /* 3.top title */
 .s1-content-top{width:100%;position:relative;}
 .s1-col-title-big{font-family: 'Oswald', sans-serif;
-font-weight:800;word-spacing:8px;font-size:60px;color:#ffffff;padding:140px 0px 10px 0px;line-height:60px;min-height:222px;}
+font-weight:800;word-spacing:8px;font-size:55px;color:#ffffff;padding:140px 0px 10px 0px;line-height:60px;min-height:222px;}
 .s1-col-title-small{font-weight:400;font-size:18px;color:#fff;line-height:1.5;padding:0px 25px 0px 25px;min-height:50px;}
 
 /* 4.col with icons for about_us section */
