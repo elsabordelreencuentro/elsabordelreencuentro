@@ -440,7 +440,7 @@ position:relative;
 /* 3.top title */
 .s1-content-top{width:100%;position:relative;}
 .s1-col-title-big{font-family: 'Oswald', sans-serif;
-font-weight:800;word-spacing:8px;font-size:72px;color:#ffffff;padding:140px 0px 10px 0px;line-height:72px;min-height:222px;}
+font-weight:800;word-spacing:8px;font-size:60px;color:#ffffff;padding:140px 0px 10px 0px;line-height:60px;min-height:222px;}
 .s1-col-title-small{font-weight:400;font-size:18px;color:#fff;line-height:1.5;padding:0px 25px 0px 25px;min-height:50px;}
 
 /* 4.col with icons for about_us section */
@@ -488,7 +488,7 @@ font-weight:800;word-spacing:8px;font-size:72px;color:#ffffff;padding:140px 0px 
 /* 4.SECTION TITLE */
 
 /* section title BIG */
-.s2-title-h1{font-weight:900;font-size:62px;font-family: 'Oswald', sans-serif;
+.s2-title-h1{font-weight:900;font-size:50px;font-family: 'Oswald', sans-serif;
 color:#ffffff;line-height:1;padding:3px 25px 0px 25px;word-spacing: 5px;}
 .s2-title-h1 span{ font-weight:600;font-family: 'Open Sans', sans-serif;
 ;}
@@ -620,7 +620,7 @@ letter-spacing:-2px;font-size:28px;}
 /* 1.section container */
 .s6{}
 /* 2.pattern for section */
-.s6-pattern{padding:150px 0px 100px 0px;background: url('../img/wallpapers/wallpaper2.jpg');background-attachment:fixed;
+.s6-pattern{padding:150px 0px 100px 0px;background: url('../img/wallpapers/wallpaper2.jpg')no-repeat center;background-attachment:fixed;
 
 }
 
@@ -755,7 +755,7 @@ letter-spacing:-2px;font-size:28px;}
 
 .twitter-tweet {padding-top: 15px;}
 
-.twitter-share-button { margin-left:10px; margin-top: 30px; margin-left: 30px;}
+.twitter-share-button { margin-top: 10px;}
 
 /* 6.container for box */
 .s7-col-item{}
@@ -804,7 +804,7 @@ letter-spacing:-2px;font-size:28px;}
 
 /* section title BIG */
 .s8-col-title-container{padding:0px 0px 0px 0px;}
-.s8-title-h1{font-weight:900;font-size:62px;font-family: 'Oswald', sans-serif;color:#ffffff;line-height:1;padding:3px 25px 0px 25px;word-spacing: 5px;}
+.s8-title-h1{font-weight:900;font-size:50px;font-family: 'Oswald', sans-serif;color:#ffffff;line-height:1;padding:3px 25px 0px 25px;word-spacing: 5px;}
 .s8-title-h1 span{ font-weight:400;font-family: 'Open Sans', sans-serif;
 }
 /* section title smaller on top */
@@ -844,10 +844,10 @@ letter-spacing:-2px;font-size:28px;}
 .s8-col-contact input:hover{box-shadow:none !important;outline:0;background:transparent !important;border:1px solid #fff !important;border-radius:6px !important;}
 
 /* 7.submit button */
-.btn-submit-custom{margin:-20px 0px 0px 0px !important;background:transparent;color:#ffffff;border:1px solid #40a0f9;}
-.btn-submit-custom:hover{margin:-20px 0px 0px 0px !important;background:transparent;color:#40a0f9;border:1px solid #40a0f9;}
-.btn-submit-custom:focus{margin:-20px 0px 0px 0px !important;background:transparent;color:#40a0f9;border:1px solid#40a0f9;}
-.btn-submit-custom:active:hover{margin:-20px 0px 0px 0px !important;background:transparent;color:#40a0f9;border:1px solid #40a0f9;}
+.btn-submit-custom{margin:10px 0px 0px 0px !important;background:transparent;color:#ffffff;border:1px solid #40a0f9;}
+.btn-submit-custom:hover{margin:10px 0px 0px 0px !important;background:transparent;color:#40a0f9;border:1px solid #40a0f9;}
+.btn-submit-custom:focus{margin:10px 0px 0px 0px !important;background:transparent;color:#40a0f9;border:1px solid#40a0f9;}
+.btn-submit-custom:active:hover{margin:10px 0px 0px 0px !important;background:transparent;color:#40a0f9;border:1px solid #40a0f9;}
 
 .btn-submit-custom2{margin:10px 0px 0px 0px !important;background:#039;color:#ffffff;border:1px solid #40a0f9;}
 .btn-submit-custom2:hover{margin:10px 0px 0px 0px !important;background:#039;color:#40a0f9;border:1px solid #40a0f9;}
